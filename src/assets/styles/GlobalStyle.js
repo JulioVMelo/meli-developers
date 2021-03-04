@@ -27,9 +27,30 @@ const GlobalStyle = createGlobalStyle`
     }
     
     body {
-        background-color: #FFF159;
-        font-family: 'Montserrat', sans-serif;
+        background-color: #fff;
+        font-family: 'Raleway', sans-serif;
         font-size: 1.4rem;
+    }
+
+    .content-centralized {
+        max-width: 1144px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .btn {
+      background-color: #0084fe;
+      color: #fff;
+      border: 0;
+      font-size: 16px;
+      border-radius: 4px;
+      padding: 14px 32px;
+      cursor: pointer;
+      transition: background-color 0.2s ease-out;
+
+      &:hover {
+        background-color: #1e6dff;
+      }
     }
 `;
 
